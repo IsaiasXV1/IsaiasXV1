@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title> Mi Formulario de Registro </title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1> Mi Formulario de Registro </h1>
+        <form>
+            <div>
+                <label for="nombre"> Nombre:</label>
+                <input placeholder="nombre" type="text" name="nombre" id="nombre">
+            </div>
+            <div>
+                <label for="apellido"> Apellido:</label>
+                <input placeholder="apellido" type="text" name="apellido" id="apellido">
+            </div>
+            <div>
+                <label for="email"> Email: </label>
+                <input placeholder="email" type="text" name="email" id="email">
+            </div>
+            <div>
+                <label for="contraseña"> Contraseña:</label>
+                <input placeholder="contraseña" type="password" name="contraseña" id="contraseña">
+            </div>
+            <div>
+                <label for="date"> Cumpleaños: </label>
+                <input type="date" name="date" id="date">
+            </div>
+            <div>
+                <label for="M"> Masculino  </label>
+                <input type="radio" name="sexo" id="M">
+                <label for="F"> femenino  </label>
+                <input type="radio" name="sexo" id="F">
+                <label for="O"> otro  </label>
+                <input type="radio" name="sexo" id="O">
+            </div>
+            <div>
+                <p>Una breve descripcion de ti:</p>
+            </div>
+            <div>
+                <label for="comentario"></label>
+                <textarea name="comentario" maxlength="10" id="comentario"></textarea>
+            </div>
+                <div>
+                    <label for="lenguaje"> Lenguaje Favorito </label>
+                <select name="lenguaje" id="lenguaje">
+                    <option value="css">CSS</option>
+                    <option value="html">HTML</option>
+                    <option value="javascript">JavaScript</option>
+                </select>
+            </div>
+            <div>
+                <button>
+                    Enviar
+                </button>
+            </div>
+        </form>
+    </body>
+</html>
